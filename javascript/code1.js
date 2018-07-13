@@ -1,0 +1,4 @@
+var name = "Jack";
+var age = 23;
+var message = "Hey, my name is " + name + " and I am " + age + " years old.";
+alert(message);
