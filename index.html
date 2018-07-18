@@ -1,57 +1,114 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <title> Website </title>
-    <!--
-    <style type="text/css">
-      body{ background: blue; }
-      h1{color: white;}
-      p{font-size: 24px;}
-      </style>
-    -->
-      <link href="styles.css" rel="stylesheet">
-      <script type="text/javascript" src="javascript/code1.js"></script>
+<head>
+<link href="styles.css" rel="stylesheet">
+    <script type="text/javascript" src="javascript/code1.js"></script>
+	<meta charset="UTF-8">
+	<title>Aarushi Singh</title>
+	<link href='https://fonts.googleapis.com/css?family=Fauna+One' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="bootstrap-4.1.2-dist/css/bootstrap-grid.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"
+	<!--[if IE]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
-  </head>
+</head>
+<body>
 
-  <body>
+		<!-- LANDING PAGE -->
+		<section id="home">
+			<!-- OVERLAY -->
+			<div class="overlay">
+				<!-- PRIMARY NAVIGATION -->
+				<nav role="navigation">
+					<ul class="vertical-list">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#portfolio">Example</a></li>
+						<li><a href="#contact" >Sign up</a></li>
+					</ul>
+				</nav>
+				<!-- END OF PRIMARY NAVIGATION -->
 
-    <h1><strong>SIS</strong></h1>
-    <h2>Success in Schools</h2>
-    <!-- <h3>h1</h3>
-    <h4>h1</h4>
-    <h5>h1</h5>
-    <h6>h1</h6>   -->
-
-    <!--  <h1> world cup <a href="http://www.google.com">semi-final</a> <h1>
-      <ol>
-        <li>
-          France
-        </li>
-
-
-        <li>
-          Belgium
-        </li>
-      </ol>
-    -->
-
-<!--<img src="images/puppy.jpg" alt="puppy" height="375" width="500">-->
-
-<!--
-<p style="color: orange; font-size: 30px;"> Some text that will be styles incline CSS</p>-->
-
-<img src="images/Teen-Stress3.jpg" alt="teen" height="375" width="500">
+				<!-- CONTAINER -->
+				<div class="container">
+					<h1><span class="logo">SIS</span><small>Success In Schools</small></h1>
+						<ul class="social-links vertical-list">
 
 
-<p> Success in schools is defined in many ways, the grades students recieve on tests,
-  class ranking, and GPA. It's all about which student can outperform the others and make
-their way to the top of the class adn eventually graduate from a prestigioius college.  </p> <!-- This is how you type just words-->
+				<!-- END OF CONTAINER -->
+			</div>
+			<!-- END OF OVERLAY -->
+		</section>
+		<!-- END OF LANDING PAGE -->
 
 
-  </body>
+		<!-- ABOUT -->
+		<section id="about">
+			<!-- CONTAINER -->
+			<div class="container">
+				<h2>About</h2>
+				<div class="row info">
+					<div class="col-sm-8">
+						<p>
+							SIS allows high school teachers to put their student data in, such as tests and labs, and it graphically shows the the growth or decline of students overtime.
+
+					</div>
+
+					<div class="col-md-4">
+						<img src="data:image/jpeg;base64,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" alt="Lewis Alberto Briffa" class="img-responsive img-circle">
+					</div>
+				</div>
+
+
+			<!-- END OF CONTAINER -->
+		</section>
+		<!-- END OF ABOUT -->
+
+		<!-- PORTFOLIO -->
+		<section id="portfolio">
+
+					<!-- CONTAINER -->
+					<div class="container">
+						<h2>For example...</h2>
+            <p> If a teacher puts in her students overall grades from the first semester, she may see that her students are doing well and improving in her class.
+            However, when she puts in her student's test grades, she sees the opposite. Her students have not improved on tests, and the reason why she couldn't see this problem earlier was because the other grades were covering it up. The teacher can now clearly see what topics her students struggled in and now she is aware that she must do something
+            different to help her students improve on the tests. <strong> SIS is the tool to help students succeed in school!</strong> </p>
+					</div>
+					<!-- END OF CONTAINER -->
 
 
 
-</html>
+		<!-- CONTACT PAGE -->
+		<section id="contact">
+			<div class="overlay">
+				<div class="container-fluid">
+					<h2>Sign up</h2>
+
+					<div class="row">
+						<div class="col-lg-9">
+						<form role="form" method="POST">
+							<div class="form-group">
+								<label for="nameTXT">Your Name</label>
+								<input type="text" id="nameTXT" name="nameTXT">
+							</div>
+
+							<div class="form-group">
+								<label for="emailTXT">Email Address</label>
+								<input type="email" id="emailTXT" name="emailTXT">
+							</div>
+
+
+							<button type="submit" class="noir" id="submitBTN" name="submitBTN"><span class="glyphicon glyphicon-send"></span>Send</button>
+						</form>
+					</div>
+
+					<div class="col-lg-3 overflow">
+
+					</div>
+					</div>
+				</div>
+			</div>
+		</section>
+    </html>
+		<!-- END OF CONTACT PAGE -->
